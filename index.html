@@ -97,14 +97,35 @@
                     </div>
                     <section class="form">
                         <div class="container">
+                            <div class="wrapper">
+                            <div class="sale">
+                                <!-- <img src="./images/akciya.svg" alt="sale" class="sale"> -->
+                            </div>
                             <div class="form-images">
-                                <img src="./images/xbox.png" width="130" alt="x-box"
-                                    class="form-image1">
-                                <img src="./images/playstation.png"b width="130" alt="ps"
-                                    class="form-image1">
+                              
+                                    <picture>
+                                        <source media="(min-width: 768px)"
+                                            srcset="./images/xbox.png">
+                                        <source media="(min-width: 400px)"
+                                            srcset="./images/x-box-info-mobile.png">
+
+                                        <img src="./images/x-box-info-mobile.png" alt="x-box">
+                                    </picture>
+
+                                    <picture>
+                                        <source media="(min-width: 768px)"
+                                            srcset="./images/playstation.png">
+                                        <source media="(min-width: 400px)"
+                                            srcset="./images/playstation-info-mobile.png">
+
+                                        <img src="./images/playstation-info-mobile.png" alt="ps">
+                                    </picture>
                             </div>
                             <div class="form-desc">
                                 <h3 class="form__title">Играй и выигрывай!</h3>
+
+                                
+
                                 <p class="form__description">Играй в <span class="text-blue">Cyberpunk 2077</span> и
                                     получи возможность выиграть консоль <span class="text-blue">Xbox Series
                                     X</span> или <span class="text-blue">Sony PlayStation 5!</span> Заполни форму ниже и
@@ -114,19 +135,30 @@
 
                                 <form action="a" method="post">
                                     <label for="name"></label>
+
                                     <input id="name" class="input" type="text" name="name" placeholder="Kак тебя зовут?" required>
-                                    <label for="input"></label>
+
+                                    <label for="input" class="input"></label>
+
                                     <input class="input" type="email" name="email" placeholder="Твой email" required>
+
                                     <label class="label-file" for="file">Прикрепить скриншот</label>
+
                                     <input type="file" class="file" id="file">
+
                                     <button class="fore-btn">Отправить</button>
-                                    
+
                                     <label for="checkbox" class="checkbox">Согласен на обработку персональных данных</label>
+
                                     <input type="checkbox" class="label-checkbox" id="checkbox">
+
                                 </form>
                             </div>
                         </div>
+                    </div>
                     </section>
+
+
             </section>
         </main>
 
