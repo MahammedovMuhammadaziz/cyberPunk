@@ -56,7 +56,8 @@
                 <div class="container">
                     <h3 class="info__title">Найт-Сити изменит тебя
                         навсегда!</h3>
-                    <p class="info__desc"><span class="text-blue">Cyberpunk 2077</span>
+                    <p class="info__desc"><span class="text-blue">Cyberpunk
+                            2077</span>
                         — приключенческая
                         ролевая игра, действие которой происходит в мегаполисе
                         Найт-Сити, где власть, роскошь и модификации тела
@@ -66,100 +67,136 @@
                         персонажа, исследуя открытый мир, где твои поступки
                         влияют на ход сюжета и всё, что тебя окружает.
                     </p>
+                </div>
+                <div class="images">
+                    <picture class="image-1">
+                        <source media="(min-width: 768px)"
+                            srcset="./images/info-tablet1.jpg">
+                        <source media="(min-width: 400px)"
+                            srcset="./images/info-mobile1.jpg">
+                        <img src="./images/info-mobile1.jpg" alt="img">
+                    </picture>
 
-                    <div class="images">
-                        <picture class="image-1">
-                            <source media="(min-width: 768px)"
-                                srcset="./images/info-tablet1.jpg">
-                            <source media="(min-width: 400px)"
-                                srcset="./images/info-mobile1.jpg">
-                            <img src="./images/info-mobile1.jpg" alt="img">
-                        </picture>
-    
-                        <picture class="image-2">
-                            <source media="(min-width: 768px)"
-                                srcset="./images/info-tablet2.jpg">
-                            <source media="(min-width: 400px)"
-                                srcset="./images/info-mobile2.jpg">
-                            <img src="./images/info-mobile2.jpg" alt="img">
-                        </picture>
-    
-                        <picture class="image-3">
-                            <source media="(min-width: 1024px)"
-                                srcset="./images/info-desctop3.jpg">
-                            <source media="(min-width: 768px)"
-                                srcset="./images/info-tablet3.jpg">
-                            <source media="(min-width: 400px)"
-                                srcset="./images/info-mobile3.jpg">
-                            <img src="./images/info-mobile3.jpg" alt="img">
-                        </picture>
-    
+                    <picture class="image-2">
+                        <source media="(min-width: 768px)"
+                            srcset="./images/info-tablet2.jpg">
+                        <source media="(min-width: 400px)"
+                            srcset="./images/info-mobile2.jpg">
+                        <img src="./images/info-mobile2.jpg" alt="img">
+                    </picture>
+
+                    <picture class="image-3">
+                        <source media="(min-width: 1024px)"
+                            srcset="./images/info-desctop3.jpg">
+                        <source media="(min-width: 768px)"
+                            srcset="./images/info-tablet3.jpg">
+                        <source media="(min-width: 400px)"
+                            srcset="./images/info-mobile3.jpg">
+                        <img src="./images/info-mobile3.jpg" alt="img">
+                    </picture>
+
+                </div>
+            </section>
+
+            <section class="form">
+                <div class="container">
+                    <div class="wrapper">
+                        <div class="sale"></div>
+                        <div class="form-images">
+                            <picture class="pic1">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/img1-tablet.png">
+                                <source media="(min-width: 400px)"
+                                    src="./images/img1-mobile.png">
+                                <img src="./images/img1-mobile.png" alt="x-box">
+                            </picture>
+
+                            <picture>
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/img2-tablet.png">
+                                <source media="(min-width: 400px)"
+                                    srcset="./images/img2-mobile.png">
+                                <img src="./images/img2-mobile.png" alt="ps">
+                            </picture>
+                        </div>
+
+                        <div class="form-desc">
+                            <h3 class="form__title">Играй и выигрывай!</h3>
+                            <p class="form__description">Играй в <span
+                                    class="text-blue">Cyberpunk 2077</span> и
+                                получи возможность выиграть консоль <span
+                                    class="text-blue">Xbox Series
+                                    X</span> или <span class="text-blue">Sony
+                                    PlayStation 5!</span> Заполни форму ниже и
+                                приложи скриншот о покупке игры. Итоги розыгрыша
+                                будут подведены 1 февраля. Удачи! ;)
+                            </p>
+
+                            <form action="#" method="post">
+                                <label for="name"></label>
+                                <input id="name" class="input" type="text" name="name" required placeholder="Как тебя зовут?">
+                                <label for="email"></label>
+                                <input id="email" class="input" type="email"name="email" required placeholder="Твой е-mail">
+                                <label class="label-file" for="file">Прикрепить
+                                    скриншот</label>
+                                <input type="file" id="file" class="file">
+                                <button class="form-btn">Отправить</button>
+                                <input class="checkbox" id="checkbox" checkedtype="checkbox">
+                                <label for="checkbox"
+                                    class="label-checkbox">Согласен на обработку персональных данных</label>
+                            </form>
+                        </div>
+
                     </div>
-                    <section class="form">
-                        <div class="container">
-                            <div class="wrapper">
-                            <div class="sale">
-                                <!-- <img src="./images/akciya.svg" alt="sale" class="sale"> -->
-                            </div>
-                            <div class="form-images">
-                              
-                                    <picture>
-                                        <source media="(min-width: 768px)"
-                                            srcset="./images/xbox.png">
-                                        <source media="(min-width: 400px)"
-                                            srcset="./images/x-box-info-mobile.png">
+                </div>
+            </section>
 
-                                        <img src="./images/x-box-info-mobile.png" alt="x-box">
-                                    </picture>
+            <section class="display">
+                <div class="container">
+                    <div class="display-wrapper">
+                        <div class="hp">
+                            
+                            <picture>
+                                <source media="(min-width: 1024px)"
+                                    srcset="./images/info-ekran1.png">
+                                <source media="(min-width: 768px)"
+                                    srcset="./images/info-ekran2.png">
+                                <source media="(min-width: 320px)"
+                                    srcset="./images/info-ekran3.png">
+                                <img src="./images/info-ekran3.png" alt="display">
+                            </picture>
 
-                                    <picture>
-                                        <source media="(min-width: 768px)"
-                                            srcset="./images/playstation.png">
-                                        <source media="(min-width: 400px)"
-                                            srcset="./images/playstation-info-mobile.png">
 
-                                        <img src="./images/playstation-info-mobile.png" alt="ps">
-                                    </picture>
-                            </div>
-                            <div class="form-desc">
-                                <h3 class="form__title">Играй и выигрывай!</h3>
-
-                                
-
-                                <p class="form__description">Играй в <span class="text-blue">Cyberpunk 2077</span> и
-                                    получи возможность выиграть консоль <span class="text-blue">Xbox Series
-                                    X</span> или <span class="text-blue">Sony PlayStation 5!</span> Заполни форму ниже и
-                                    приложи скриншот о покупке игры. Итоги розыгрыша
-                                    будут подведены 1 февраля. Удачи! ;
-                                </p>
-
-                                <form action="a" method="post">
-                                    <label for="name"></label>
-
-                                    <input id="name" class="input" type="text" name="name" placeholder="Kак тебя зовут?" required>
-
-                                    <label for="input" class="input"></label>
-
-                                    <input class="input" type="email" name="email" placeholder="Твой email" required>
-
-                                    <label class="label-file" for="file">Прикрепить скриншот</label>
-
-                                    <input type="file" class="file" id="file">
-
-                                    <button class="fore-btn">Отправить</button>
-
-                                    <label for="checkbox" class="checkbox">Согласен на обработку персональных данных</label>
-
-                                    <input type="checkbox" class="label-checkbox" id="checkbox">
-
-                                </form>
+                            <div class="display__icons">
+                                <img src="./images/././info__hp-2logo1.png" alt="hp">
+                                <img src="./images/info__strelki1.svg" alt="X-icon">
+                                <img src="./images/logo.svg" alt="logo">
                             </div>
                         </div>
+                        <div class="display__about">
+                            <h3 class="display__title">Полное погружение вместе
+                                с HP</h3>
+                            <p class="display__desc">Погрузись в современные
+                                экшен-игры с реалистичным изображением с помощью
+                                монитора с диагональю 23,8 дюйма, созданном для
+                                отображения максимально насыщенных цветов.
+                                Успевай реагировать на любые события с временем
+                                отклика 1 мс и частотой в 144 Гц!
+                            </p>
+                            <ul class="display__list">
+                                <li class="display__item color">Яркие насыщенные
+                                    цвета</li>
+                                <li class="display__item star">Кристальная
+                                    четкость изображения</li>
+                                <li class="display__item fps">Быстрые движения и
+                                    плавный геймплей</li>
+                            </ul>
+                            <button class="display__btn"> Подробнее </button>
+                        </div>
                     </div>
-                    </section>
-
-
+                </div>
             </section>
+
         </main>
 
     </body>
