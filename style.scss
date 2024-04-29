@@ -683,6 +683,10 @@ label {
 
 
 .buy{
+
+background-color: #000;
+
+  }
   &-bg {
     min-height: 200px;
     width: 100%;
@@ -712,12 +716,22 @@ label {
 
     @media (min-width: 780px) {
         display: flex;
-padding-bottom: 0;
+        padding-bottom: 0;
       }
+
+    @media (min-width: 780px) {
+      display: flex;
+      margin-bottom: 0;
+    }
   }
+
 
   &-about {
     padding: 0 12px;
+
+    @media (min-width: 780px) {
+      max-width: 500;
+    }
   }
 
   &__title {
@@ -726,6 +740,11 @@ padding-bottom: 0;
     color: #fff;
     font-family: "Archangelsk";
     margin-bottom: 30px;
+
+    @media (min-width: 780px) {
+      font-size: 62px;
+      margin-bottom: 70px;
+    }
   }
 
   &__list{ 
@@ -755,7 +774,7 @@ padding-bottom: 0;
       background-size: cover;
     }
   }
-}
+
 
 .disc::before {
   background-image: url(./images/disk.svg);

@@ -731,6 +731,12 @@ label {
   font-family: "Archangelsk";
   margin-bottom: 30px;
 }
+@media (min-width: 780px) {
+  .buy__title {
+    font-size: 62px;
+    margin-bottom: 70px;
+  }
+}
 .buy__list {
   display: flex;
   flex-direction: column;
